@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/background_color">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agregar un nuevo hábito"
+        android:textSize="24sp"
+        android:textColor="@color/primary_text"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Campo de texto para el nombre del hábito -->
+    <EditText
+        android:id="@+id/habitNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del hábito"
+        android:backgroundTint="@color/primary_text"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Botón para guardar el hábito -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/saveHabitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar Hábito"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/button_color"
+        android:textColor="@android:color/white" />
+</LinearLayout>

@@ -1,0 +1,15 @@
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_notify"
+        android:title="Programar Notificación"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/menu_edit_description"
+        android:title="Agregar Descripción"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/menu_delete"
+        android:title="Eliminar Hábito"
+        tools:ignore="HardcodedText" />
+</menu>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Color de fondo principal -->
+    <color name="background_color">#F0F0F0</color>
+
+    <!-- Color de texto principal -->
+    <color name="primary_text">#333333</color>
+
+    <!-- Color de los botones -->
+    <color name="button_color">#FF6200EE</color>
+
+    <!-- Color del Floating Action Button (FAB) -->
+    <color name="fab_color">#FF6200EE</color>
+
+    <!-- Colores adicionales -->
+    <color name="primary_color">#6200EE</color>
+    <color name="secondary_color">#03DAC6</color>
+</resources>
